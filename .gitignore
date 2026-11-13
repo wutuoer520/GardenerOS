@@ -1,0 +1,16 @@
+# Rust 构建产物
+/target
+**/*.rs.bk
+Cargo.lock
+
+# 编辑器与临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# QEMU / 内核运行产物
+*.img
+*.bin
+*.map
